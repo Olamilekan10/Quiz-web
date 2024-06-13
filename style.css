@@ -14,8 +14,8 @@ body {
 .header {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 0; 
+     width: 100%;
     padding: 20px 10%;
     background: seagreen;
     display: flex;
@@ -29,4 +29,23 @@ body {
     font-weight: 700;
     color: #fff;
     text-decoration: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #c40094;
+}
+
+.main {
+    min-height: 100vh;
+    background: url('') no-repeat; 
 }
