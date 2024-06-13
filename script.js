@@ -10,4 +10,5 @@ startBtn.onclick = () => {
 
 exitBtn.onclick = () => { 
     popupInfo.classList.remove('active');
+    main.classList.remove('active');
 };
