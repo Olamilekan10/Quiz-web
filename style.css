@@ -111,8 +111,8 @@ body {
     background: #fff;
     border-radius: 6px;
     padding: 10px 25px;
-    /* opacity: 0;
-    pointer-events: none; */
+    opacity: 0;
+    pointer-events: none;
 }
 
 .popup-info h2 {
@@ -164,4 +164,9 @@ body {
 .popup-info .btn-group .info-btn:nth-child(1):hover {
     background: #c40094;
     color: #fff;
+}
+
+.popup-info .btn-group .info-btn:nth-child(2):hover {
+    background: #950170;
+    border-color: #950170;
 }
