@@ -52,11 +52,13 @@ body {
     background: url('./images/quiz2.jpg') no-repeat; 
     background-size: cover;
     background-position: center;
+    pointer-events: auto;
     transition: .3s ease;
 }
 
 .main.active {
     filter: blur(15px);
+    pointer-events: none;
 }
 
 .home {
