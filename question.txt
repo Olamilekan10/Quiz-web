@@ -5,9 +5,9 @@ options:
 "A. Hyper Type Multi Language",
 "B. Hyper Text Multiple Language",
 "C. Hyper Text Markup Language",
-"D. Home Text Multi Language"
+"D. "
 
-2.
+2.Home Text Multi Language
 What does CSS stand for?
 C. Cacsading Style Sheet
 options:
