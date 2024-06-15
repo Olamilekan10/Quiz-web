@@ -5,9 +5,9 @@ options:
 "A. Hyper Type Multi Language",
 "B. Hyper Text Multiple Language",
 "C. Hyper Text Markup Language",
-"D. "
+"D. Home Text Multi Language"
 
-2.Home Text Multi Language
+2.
 What does CSS stand for?
 C. Cacsading Style Sheet
 options:
@@ -24,3 +24,21 @@ options:
 "B. Hometext Programming",
 "C. Hypertext Preprogramming",
 "D. Programming Hypertext Preprocessor"
+
+4.
+What does SQL stand for?
+D. Structured Query Language
+options:
+"A. Strength Query Language",
+"B. Style Query Language",
+"C. Science Question Language",
+"D. Structured Query Language"
+
+4.
+What does XML stand for?
+D. Extensible Markup Language
+options:
+"A. Excellent Multiple Language",
+"B. Explore Multiple Language",
+"C. Extra Markup Language",
+"D. Extensible Markup Language"
