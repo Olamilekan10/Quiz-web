@@ -29,13 +29,17 @@ let questionCount = 0;
 
 const nextBtn = document.querySelector('.next-btn')
 
-
 nextBtn.onclick = () => { 
-    
+    questionCount++;
+    showQuestions(questionCount);
 };
+
+const optionList = document.querySelector('.option-list');
 
 // getting questions and options from array 
 function showQuestions(index) {
    const questionText = document.querySelector('.question-text'); 
    questionText.textContent = `${questions[index].numb}. ${questions[index].question}`;
+
+   
 }
