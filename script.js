@@ -26,12 +26,17 @@ continueBtn.onclick = () => {
 };
 
 let questionCount = 0;
+let questionNumb = 1;
 
 const nextBtn = document.querySelector('.next-btn')
 
 nextBtn.onclick = () => { 
-    questionCount++;
-    showQuestions(questionCount);
+    if (questionCount < questions.length - 1) {
+        questionCount++;
+        showQuestions(questionCount);
+    } else {
+        console.log('No more questions');
+    }
 };
 
 const optionList = document.querySelector('.option-list');
@@ -48,5 +53,8 @@ function showQuestions(index) {
         <div class="option"><span>${questions[index].options[3]}</span></div>`;
 
         optionList.innerHTML = optionTag;
+}
 
+function questionCounter(index) {
+    const questionTotal = document.querySelector('.');
 }
