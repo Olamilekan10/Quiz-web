@@ -59,7 +59,15 @@ function showQuestions(index) {
         optionList.innerHTML = optionTag;
 
         const option = document.querySelectorAll('.option');
+        for (let i = 0; i < optionL.length; i++) {
+            option[i].setAttribute('onclick', 'optionSelected(this)');
+        }
 }
+
+function optionSelected(answer) {
+    let userAnswer = answer.textContent;
+    console.log(userAnswer);
+} 
 
 function questionCounter(index) {
     const questionTotal = document.querySelector('.question-total');
