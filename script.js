@@ -23,6 +23,7 @@ continueBtn.onclick = () => {
     quizBox.classList.add('active');
 
     showQuestions(0);
+    questionCounter(1); 
 };
 
 let questionCount = 0;
@@ -34,6 +35,9 @@ nextBtn.onclick = () => {
     if (questionCount < questions.length - 1) {
         questionCount++;
         showQuestions(questionCount);
+
+        questionNumb++;
+        questionCounter(questionNumb);
     } else {
         console.log('No more questions');
     }
@@ -56,5 +60,6 @@ function showQuestions(index) {
 }
 
 function questionCounter(index) {
-    const questionTotal = document.querySelector('.');
+    const questionTotal = document.querySelector('.question-total');
+    questionTotal.textContent = `${index} of ${questions.length} Questions`;
 }
