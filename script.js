@@ -57,6 +57,8 @@ function showQuestions(index) {
         <div class="option"><span>${questions[index].options[3]}</span></div>`;
 
         optionList.innerHTML = optionTag;
+
+        const option = document.querySelectorAll('.option');
 }
 
 function questionCounter(index) {
