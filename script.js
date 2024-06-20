@@ -59,14 +59,20 @@ function showQuestions(index) {
         optionList.innerHTML = optionTag;
 
         const option = document.querySelectorAll('.option');
-        for (let i = 0; i < optionL.length; i++) {
+        for (let i = 0; i < option.length; i++) {
             option[i].setAttribute('onclick', 'optionSelected(this)');
         }
 }
 
 function optionSelected(answer) {
     let userAnswer = answer.textContent;
-    console.log(userAnswer);
+    let correctAnswer = questions[questionCount].answer;
+    if (userAnswer == correctAnswer) {
+        answer.classList.add('correct');
+    } 
+    else {
+        answer.classList.add('incorrect');
+    }
 } 
 
 function questionCounter(index) {
