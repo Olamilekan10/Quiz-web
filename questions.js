@@ -13,11 +13,11 @@ let questions = [
     {
         numb: 2,
         question: "What does CSS stand for?",
-        answer: "C. Cacsading Style Sheet",
+        answer: "C. Cascading Style Sheet",
         options: [
-            "A. Cacsading Style Sheet",
+            "A. Computer Style Sheet",
             "B. Cute Style Sheet",
-            "C. Computer Style Sheet",
+            "C. Cascading Style Sheet",
             "D. Codehal Style Sheet"
         ]
     },
