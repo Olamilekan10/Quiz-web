@@ -67,11 +67,19 @@ function showQuestions(index) {
 function optionSelected(answer) {
     let userAnswer = answer.textContent;
     let correctAnswer = questions[questionCount].answer;
+    let allOptions = optionList.children.length;
+
     if (userAnswer == correctAnswer) {
         answer.classList.add('correct');
     } 
     else {
         answer.classList.add('incorrect');
+    }
+
+    // disabling all other options if user has selected one.
+    for (let i = 0; i < allOptions; i++) {
+       optionList.children[i].classList.add('disabled');
+        
     }
 } 
 
