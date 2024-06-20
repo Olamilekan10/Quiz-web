@@ -74,6 +74,8 @@ function optionSelected(answer) {
     } 
     else {
         answer.classList.add('incorrect');
+
+        // 
     }
 
     // disabling all other options if user has selected one.
