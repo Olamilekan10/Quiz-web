@@ -357,4 +357,21 @@ body {
     font-size: 52px;
  }
 
- 
+ .result-box .percentage-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 40px;
+ }
+
+ .percentage-container .circular-progress {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: purple;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
