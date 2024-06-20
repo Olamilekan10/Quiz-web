@@ -40,8 +40,10 @@ nextBtn.onclick = () => {
 
         questionNumb++;
         questionCounter(questionNumb);
+
+        nextBtn.classList.remove('active');
     } else {
-        console.log('No more questions');
+        console.log('Question completed');
     }
 };
 
