@@ -369,9 +369,32 @@ body {
     position: relative;
     width: 250px;
     height: 250px;
-    background: purple;
+    background: conic-gradient(#c40094 3.6deg, rgba(255, 255, 255, .1) 0deg);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+ }
+
+ .circular-progress .progress-value {
+    font-size: 45px;
+    font-weight: 600;
+ }
+
+ .percentage-container .score-text {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+ }
+
+ .buttons button {
+    width: 130px;
+    height: 47px;
+    background: #c40094;
+    border: 2px solid #c40094;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
  }
