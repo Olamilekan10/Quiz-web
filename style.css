@@ -387,6 +387,10 @@ body {
     margin-top: 20px;
  }
 
+ .result-box .buttons {
+    display: flex;
+ }
+
  .buttons button {
     width: 130px;
     height: 47px;
@@ -400,6 +404,11 @@ body {
     margin: 0 20px 20px;
     cursor: pointer;
     transition: .5s;
+ }
+
+ .buttons button:nth-child(1):hover {
+    background: #950170;
+    border-color: #950170;
  }
 
  .buttons button:nth-child(2) {
