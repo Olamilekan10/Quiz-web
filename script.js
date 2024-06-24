@@ -124,6 +124,7 @@ function showResultBox () {
     let progress = setInterval(() => {
         progressStartValue++;
         // console.log(progressStartValue);
+        progressValue.textContent = `${progressStartValue}%`;
         if (progressStartValue == progressEndValue) {
             clearInterval(progress);
         }
