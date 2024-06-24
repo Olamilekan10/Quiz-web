@@ -121,5 +121,11 @@ function showResultBox () {
     let progressEndValue = 60;
     let speed = 20;
 
-    
+    let progress = setInterval(() => {
+        progressStartValue++;
+        // console.log(progressStartValue);
+        if (progressStartValue == progressEndValue) {
+            clearInterval(progress);
+        }
+    }, speed);
 }
