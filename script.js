@@ -24,10 +24,25 @@ continueBtn.onclick = () => {
     popupInfo.classList.remove('active');
     main.classList.remove('active');
     quizBox.classList.add('active');
-
+    
     showQuestions(0);
     questionCounter(1); 
     headerScore();
+};
+
+tryAgainBtn.onclick = () => { 
+    quizBox.classList.add('active');
+    nextBtn.classList.remove('active');
+    resultBox.classList.remove('active');
+
+    questionCount = 0;
+    questionNumb = 1;
+    userScore = 0;
+    showQuestions(questionCount);
+    questionCounter(questionNumb);
+
+    headerScore();
+
 };
 
 let questionCount = 0;
