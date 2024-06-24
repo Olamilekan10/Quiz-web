@@ -45,6 +45,19 @@ tryAgainBtn.onclick = () => {
 
 };
 
+goHomeBtn.onclick = () => { 
+    quizSection.classList.remove('active');
+    nextBtn.classList.remove('active');
+    resultBox.classList.remove('active');
+
+    questionCount = 0;
+    questionNumb = 1;
+    userScore = 0;
+    showQuestions(questionCount);
+    questionCounter(questionNumb);
+
+};
+
 let questionCount = 0;
 let questionNumb = 1;
 let userScore = 0;
