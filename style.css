@@ -354,11 +354,14 @@ body {
     align-items: center;
     opacity: 0;
     pointer-events: none;
+    transition: .3s ease;
  }
 
  .quiz-section .result-box.active {
     opacity: 1;
     pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+
  }
 
  .result-box h2 {

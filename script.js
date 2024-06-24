@@ -111,4 +111,15 @@ function headerScore () {
 function showResultBox () {
     quizBox.classList.remove('active');
     resultBox.classList.add('active');
+
+    const scoreText = document.querySelector('.score-text');
+    scoreText.textContent = `Your score ${userScore} out of ${questions.length}`;
+
+    const circularProgress = document.querySelector('.circular-progress');
+    const progressValue = document.querySelector('.progress-value');
+    let progressStartValue = 0;
+    let progressEndValue = 60;
+    let speed = 20;
+
+    
 }
