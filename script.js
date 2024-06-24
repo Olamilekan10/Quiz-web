@@ -123,8 +123,10 @@ function showResultBox () {
 
     let progress = setInterval(() => {
         progressStartValue++;
-        // console.log(progressStartValue);
+
         progressValue.textContent = `${progressStartValue}%`;
+        circularProgress.style.background = `conic-gradient(#c40094 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`;
+
         if (progressStartValue == progressEndValue) {
             clearInterval(progress);
         }
