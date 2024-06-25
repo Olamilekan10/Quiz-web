@@ -67,101 +67,101 @@ let questions = [
     // },
     // {
     //     numb: 7,
-    //     question: "What does XML stand for?",
-    //     answer: "D. Extensible Markup Language",
+    //     question: "One of the seven wonders of the ancient world includes?",
+    //     answer: "D. The Great Pyramid of Giza",
     //     options: [
-    //         "A. Excellent Multiple Language",
-    //         "B. Explore Multiple Language",
-    //         "C. Extra Markup Language",
-    //         "D. Extensible Markup Language"
+    //         "A. Taj Mahal in India",
+    //         "B. Colossus of Rhodes",
+    //         "C. Christ the Redeemer in Brazil",
+    //         "D.The Great Pyramid of Giza"
     //     ]
     // },
     // {
     //     numb: 8,
-    //     question: "What does XML stand for?",
-    //     answer: "D. Extensible Markup Language",
+    //     question: "The largest Planet in our solar system is?",
+    //     answer: "B. Jupiter",
     //     options: [
-    //         "A. Excellent Multiple Language",
-    //         "B. Explore Multiple Language",
-    //         "C. Extra Markup Language",
-    //         "D. Extensible Markup Language"
+    //         "A. Mars",
+    //         "B. Jupiter",
+    //         "C. Venus",
+    //         "D. Saturn"
     //     ]
     // },
     // {
     //     numb: 9,
-    //     question: "What does XML stand for?",
-    //     answer: "D. Extensible Markup Language",
+    //     question: "What is the capital city of France?",
+    //     answer: "C. Paris",
     //     options: [
-    //         "A. Excellent Multiple Language",
-    //         "B. Explore Multiple Language",
-    //         "C. Extra Markup Language",
-    //         "D. Extensible Markup Language"
+    //         "A. Rome",
+    //         "B. London",
+    //         "C. Paris",
+    //         "D. Berlin",
     //     ]
     // }, 
     // {
     //     numb: 10,
-    //     question: "What does XML stand for?",
-    //     answer: "D. Extensible Markup Language",
+    //     question: "Which of the following countries is the largest by land area?",
+    //     answer: "A. Russia",
     //     options: [
-    //         "A. Excellent Multiple Language",
-    //         "B. Explore Multiple Language",
-    //         "C. Extra Markup Language",
-    //         "D. Extensible Markup Language"
+    //         "A. Russia",
+    //         "B. Canada",
+    //         "C. United States",
+    //         "D. Chile",
     //     ]
     // },
     // {
     //     numb: 11,
-    //     question: "What does XML stand for?",
-    //     answer: "D. Extensible Markup Language",
+    //     question: "Who was the first President of the United States?",
+    //     answer: "D. George Washington",
     //     options: [
-    //         "A. Excellent Multiple Language",
-    //         "B. Explore Multiple Language",
-    //         "C. Extra Markup Language",
-    //         "D. Extensible Markup Language"
+    //         "A. Thomas Jefferson",
+    //         "B. Abraham Lincoln",
+    //         "C.John Adams",
+    //         "D. George Washington"
     //     ]
     // },
     // {
     //     numb: 12,
-    //     question: "What does XML stand for?",
-    //     answer: "D. Extensible Markup Language",
+    //     question: "What is the chemical symbol for water?",
+    //     answer: "C. H2O",
     //     options: [
-    //         "A. Excellent Multiple Language",
-    //         "B. Explore Multiple Language",
-    //         "C. Extra Markup Language",
-    //         "D. Extensible Markup Language"
+    //         "A. HO2",
+    //         "B. O2",
+    //         "C. H2O",
+    //         "D. H"
     //     ]
     // },
     // {
     //     numb: 13,
-    //     question: "What does XML stand for?",
-    //     answer: "D. Extensible Markup Language",
+    //     question: "Who wrote the novel "To Kill a Mockingbird"?",
+    //     answer: "A. Harper Lee",
     //     options: [
-    //         "A. Excellent Multiple Language",
-    //         "B. Explore Multiple Language",
-    //         "C. Extra Markup Language",
-    //         "D. Extensible Markup Language"
+    //         "A. Harper Lee",
+    //         "B. J.K. Rowling",
+    //         "C. Mark Twain",
+    //         "D. Ernest Hemingway"
     //     ]
     // },
     // {
     //     numb: 14,
-    //     question: "What does XML stand for?",
-    //     answer: "D. Extensible Markup Language",
+    //     question: "Which movie won the Academy Award for Best Picture in 2021?",
+    //     answer: "B. Nomadland",
     //     options: [
-    //         "A. Excellent Multiple Language",
-    //         "B. Explore Multiple Language",
-    //         "C. Extra Markup Language",
-    //         "D. Extensible Markup Language"
+    //         "A. The Trial of the Chicago 7",
+    //         "B. Nomadland",
+    //         "C. Minari",
+    //         "D. The Father"
     //     ]
     // },
     // {
     //     numb: 15,
-    //     question: "What does XML stand for?",
-    //     answer: "D. Extensible Markup Language",
+    //     question: "Who is known as the "King of Pop"?",
+    //     answer: "C. Michael Jackson",
     //     options: [
-    //         "A. Excellent Multiple Language",
-    //         "B. Explore Multiple Language",
-    //         "C. Extra Markup Language",
-    //         "D. Extensible Markup Language"
+    //         "A. Madonna",
+    //         "B. Elvis Presley",
+    //         "C. Michael Jackson",
+    //         "D. Beyonce"
     //     ]
     // }
 ];
