@@ -56,13 +56,13 @@ let questions = [
     },
     // {
     //     numb: 6,
-    //     question: "What does XML stand for?",
-    //     answer: "D. Extensible Markup Language",
+    //     question: "The Great Wall is said to be in?",
+    //     answer: "B. China",
     //     options: [
-    //         "A. Excellent Multiple Language",
-    //         "B. Explore Multiple Language",
-    //         "C. Extra Markup Language",
-    //         "D. Extensible Markup Language"
+    //         "A. England",
+    //         "B. China",
+    //         "C. Japan",
+    //         "D. Switzerland",
     //     ]
     // },
     // {
