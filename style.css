@@ -442,3 +442,7 @@ body {
     background: #c40094;
     color: #fff;
  }
+
+ @media (min-width: 768px) {
+    
+ }
