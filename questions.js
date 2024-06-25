@@ -2,12 +2,12 @@ let questions = [
     {
         numb: 1,
         question: "What does HTML stand for?",
-        answer: "C. Hyper Text Markup Language",
+        answer: "C. HyperText Markup Language",
         options: [
-            "A. Hyper Type Multi Language",
-            "B. Hyper Text Multiple Language",
-            "C. Hyper Text Markup Language",
-            "D. Home Text Multi Language"
+            "A. HyperType Multi Language",
+            "B. HyperText Multiple Language",
+            "C. HyperText Markup Language",
+            "D. HomeText Multi Language"
         ]
     },
     {
@@ -53,5 +53,115 @@ let questions = [
             "C. Extra Markup Language",
             "D. Extensible Markup Language"
         ]
-    }
+    },
+    // {
+    //     numb: 6,
+    //     question: "What does XML stand for?",
+    //     answer: "D. Extensible Markup Language",
+    //     options: [
+    //         "A. Excellent Multiple Language",
+    //         "B. Explore Multiple Language",
+    //         "C. Extra Markup Language",
+    //         "D. Extensible Markup Language"
+    //     ]
+    // },
+    // {
+    //     numb: 7,
+    //     question: "What does XML stand for?",
+    //     answer: "D. Extensible Markup Language",
+    //     options: [
+    //         "A. Excellent Multiple Language",
+    //         "B. Explore Multiple Language",
+    //         "C. Extra Markup Language",
+    //         "D. Extensible Markup Language"
+    //     ]
+    // },
+    // {
+    //     numb: 8,
+    //     question: "What does XML stand for?",
+    //     answer: "D. Extensible Markup Language",
+    //     options: [
+    //         "A. Excellent Multiple Language",
+    //         "B. Explore Multiple Language",
+    //         "C. Extra Markup Language",
+    //         "D. Extensible Markup Language"
+    //     ]
+    // },
+    // {
+    //     numb: 9,
+    //     question: "What does XML stand for?",
+    //     answer: "D. Extensible Markup Language",
+    //     options: [
+    //         "A. Excellent Multiple Language",
+    //         "B. Explore Multiple Language",
+    //         "C. Extra Markup Language",
+    //         "D. Extensible Markup Language"
+    //     ]
+    // }, 
+    // {
+    //     numb: 10,
+    //     question: "What does XML stand for?",
+    //     answer: "D. Extensible Markup Language",
+    //     options: [
+    //         "A. Excellent Multiple Language",
+    //         "B. Explore Multiple Language",
+    //         "C. Extra Markup Language",
+    //         "D. Extensible Markup Language"
+    //     ]
+    // },
+    // {
+    //     numb: 11,
+    //     question: "What does XML stand for?",
+    //     answer: "D. Extensible Markup Language",
+    //     options: [
+    //         "A. Excellent Multiple Language",
+    //         "B. Explore Multiple Language",
+    //         "C. Extra Markup Language",
+    //         "D. Extensible Markup Language"
+    //     ]
+    // },
+    // {
+    //     numb: 12,
+    //     question: "What does XML stand for?",
+    //     answer: "D. Extensible Markup Language",
+    //     options: [
+    //         "A. Excellent Multiple Language",
+    //         "B. Explore Multiple Language",
+    //         "C. Extra Markup Language",
+    //         "D. Extensible Markup Language"
+    //     ]
+    // },
+    // {
+    //     numb: 13,
+    //     question: "What does XML stand for?",
+    //     answer: "D. Extensible Markup Language",
+    //     options: [
+    //         "A. Excellent Multiple Language",
+    //         "B. Explore Multiple Language",
+    //         "C. Extra Markup Language",
+    //         "D. Extensible Markup Language"
+    //     ]
+    // },
+    // {
+    //     numb: 14,
+    //     question: "What does XML stand for?",
+    //     answer: "D. Extensible Markup Language",
+    //     options: [
+    //         "A. Excellent Multiple Language",
+    //         "B. Explore Multiple Language",
+    //         "C. Extra Markup Language",
+    //         "D. Extensible Markup Language"
+    //     ]
+    // },
+    // {
+    //     numb: 15,
+    //     question: "What does XML stand for?",
+    //     answer: "D. Extensible Markup Language",
+    //     options: [
+    //         "A. Excellent Multiple Language",
+    //         "B. Explore Multiple Language",
+    //         "C. Extra Markup Language",
+    //         "D. Extensible Markup Language"
+    //     ]
+    // }
 ];

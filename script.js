@@ -49,7 +49,6 @@ goHomeBtn.onclick = () => {
     quizSection.classList.remove('active');
     nextBtn.classList.remove('active');
     resultBox.classList.remove('active');
-    console
 
     questionCount = 0;
     questionNumb = 1;

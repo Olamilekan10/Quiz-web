@@ -139,8 +139,9 @@ body {
 }
 
 .popup-info h2 {
-    font-size: 50px;
+    font-size: 40px;
     color: #c40094;
+    text-align: center;
 }
 
 .popup-info .info {
