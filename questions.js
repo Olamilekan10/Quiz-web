@@ -34,13 +34,13 @@ let questions = [
     },
     {
         numb: 4,
-        question: "What does SQL stand for?",
-        answer: "D. Structured Query Language",
+        question: "Which sport is played at Wimbledon?",
+        answer: "A. Tennis",
         options: [
-            "A. Strength Query Language",
-            "B. Style Query Language",
-            "C. Science Question Language",
-            "D. Structured Query Language"
+            "A. Tennis",
+            "B. Golf",
+            "C. Soccer",
+            "D. Cricket"
         ]
     },
     {
@@ -54,61 +54,61 @@ let questions = [
             "D. Extensible Markup Language"
         ]
     },
-    // {
-    //     numb: 6,
-    //     question: "The Great Wall is said to be in?",
-    //     answer: "B. China",
-    //     options: [
-    //         "A. England",
-    //         "B. China",
-    //         "C. Japan",
-    //         "D. Switzerland",
-    //     ]
-    // },
-    // {
-    //     numb: 7,
-    //     question: "One of the seven wonders of the ancient world includes?",
-    //     answer: "D. The Great Pyramid of Giza",
-    //     options: [
-    //         "A. Taj Mahal in India",
-    //         "B. Colossus of Rhodes",
-    //         "C. Christ the Redeemer in Brazil",
-    //         "D.The Great Pyramid of Giza"
-    //     ]
-    // },
-    // {
-    //     numb: 8,
-    //     question: "The largest Planet in our solar system is?",
-    //     answer: "B. Jupiter",
-    //     options: [
-    //         "A. Mars",
-    //         "B. Jupiter",
-    //         "C. Venus",
-    //         "D. Saturn"
-    //     ]
-    // },
-    // {
-    //     numb: 9,
-    //     question: "What is the capital city of France?",
-    //     answer: "C. Paris",
-    //     options: [
-    //         "A. Rome",
-    //         "B. London",
-    //         "C. Paris",
-    //         "D. Berlin",
-    //     ]
-    // }, 
-    // {
-    //     numb: 10,
-    //     question: "Which of the following countries is the largest by land area?",
-    //     answer: "A. Russia",
-    //     options: [
-    //         "A. Russia",
-    //         "B. Canada",
-    //         "C. United States",
-    //         "D. Chile",
-    //     ]
-    // },
+    {
+        numb: 6,
+        question: "The Great Wall is said to be in?",
+        answer: "B. China",
+        options: [
+            "A. England",
+            "B. China",
+            "C. Japan",
+            "D. Switzerland"
+        ]
+    },
+    {
+        numb: 7,
+        question: "One of the seven wonders of the ancient world includes?",
+        answer: "D. The Great Pyramid of Giza",
+        options: [
+            "A. Taj Mahal in India",
+            "B. Colossus of Rhodes",
+            "C. Christ the Redeemer in Brazil",
+            "D. The Great Pyramid of Giza"
+        ]
+    },
+    {
+        numb: 8,
+        question: "The largest Planet in our solar system is?",
+        answer: "B. Jupiter",
+        options: [
+            "A. Mars",
+            "B. Jupiter",
+            "C. Venus",
+            "D. Saturn"
+        ]
+    },
+    {
+        numb: 9,
+        question: "What is the capital city of France?",
+        answer: "C. Paris",
+        options: [
+            "A. Rome",
+            "B. London",
+            "C. Paris",
+            "D. Berlin"
+        ]
+    }, 
+    {
+        numb: 10,
+        question: "Which of the following countries is the largest by land area?",
+        answer: "A. Russia",
+        options: [
+            "A. Russia",
+            "B. Canada",
+            "C. United States",
+            "D. Chile"
+        ]
+    },
     // {
     //     numb: 11,
     //     question: "Who was the first President of the United States?",
@@ -133,7 +133,7 @@ let questions = [
     // },
     // {
     //     numb: 13,
-    //     question: "Who wrote the novel "To Kill a Mockingbird"?",
+    //     question: "Who wrote the novel 'To Kill a Mockingbird'?",
     //     answer: "A. Harper Lee",
     //     options: [
     //         "A. Harper Lee",
@@ -155,7 +155,62 @@ let questions = [
     // },
     // {
     //     numb: 15,
-    //     question: "Who is known as the "King of Pop"?",
+    //     question: "Who is known as the 'King of Pop'?",
+    //     answer: "C. Michael Jackson",
+    //     options: [
+    //         "A. Madonna",
+    //         "B. Elvis Presley",
+    //         "C. Michael Jackson",
+    //         "D. Beyonce"
+    //     ]
+    // }
+    // {
+    //     numb: 16,
+    //     question: "Who is known as the 'King of Pop'?",
+    //     answer: "C. Michael Jackson",
+    //     options: [
+    //         "A. Madonna",
+    //         "B. Elvis Presley",
+    //         "C. Michael Jackson",
+    //         "D. Beyonce"
+    //     ]
+    // }
+    // {
+    //     numb: 15,
+    //     question: "Who is known as the 'King of Pop'?",
+    //     answer: "C. Michael Jackson",
+    //     options: [
+    //         "A. Madonna",
+    //         "B. Elvis Presley",
+    //         "C. Michael Jackson",
+    //         "D. Beyonce"
+    //     ]
+    // }
+    // {
+    //     numb: 15,
+    //     question: "Who is known as the 'King of Pop'?",
+    //     answer: "C. Michael Jackson",
+    //     options: [
+    //         "A. Madonna",
+    //         "B. Elvis Presley",
+    //         "C. Michael Jackson",
+    //         "D. Beyonce"
+    //     ]
+    // }
+    // {
+    //     numb: 15,
+    //     question: "Who is known as the 'King of Pop'?",
+    //     answer: "C. Michael Jackson",
+    //     options: [
+    //         "A. Madonna",
+    //         "B. Elvis Presley",
+    //         "C. Michael Jackson",
+    //         "D. Beyonce"
+    //     ]
+    // }
+    // {
+    //     numb: 15,
+    //     question: "Who is known as the 'King of Pop'?",
     //     answer: "C. Michael Jackson",
     //     options: [
     //         "A. Madonna",
